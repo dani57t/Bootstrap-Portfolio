@@ -1,10 +1,4 @@
 /* css elements */
-.navbar-fixed {
-    position: fixed; /* Set the navbar to fixed position */
-    top: 0; /* Position the navbar at the top of the page */
-    width: 100%; /* Full width */
-    bottom: 0;
-}
 
 .portfolioJumbo {
     height: calc(100vh - 25px);
@@ -25,7 +19,7 @@
   }
 
 h1 {
-    text-align: center;
+    padding-bottom: 30px;
 }
 
 .cardContainer {
@@ -37,4 +31,26 @@ h1 {
 
 .projects {
     align-items: center;
+}
+
+.skills {
+    background-color: #E7E9EB;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.contactme {
+    padding-top: 30px;
+    display: flex;
+    padding-bottom: 30px;
+    align-content:center;
+    justify-content: center;
+}
+
+.signUp form {
+    margin: 35px auto;
+    background-color: #f2f2f2;
+    padding: 25px;
+    border-radius: 7px;
+    width: 65%;
 }
