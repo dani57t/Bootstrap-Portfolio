@@ -1,0 +1,40 @@
+/* css elements */
+.navbar-fixed {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    bottom: 0;
+}
+
+.portfolioJumbo {
+    height: calc(100vh - 25px);
+    background-image: url(../images/jumboimage.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: white;
+    text-align: center;
+  }
+
+h1 {
+    text-align: center;
+}
+
+.cardContainer {
+    margin-bottom: 15px;
+}
+.card {
+    margin: 0 auto;
+}
+
+.projects {
+    align-items: center;
+}
